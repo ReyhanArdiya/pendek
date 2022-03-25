@@ -1,0 +1,21 @@
+{
+	"name": "pendek",
+	"version": "0.0.0",
+	"description": "A URL shortener",
+	"main": "src/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"develop": "nodemon ."
+	},
+	"type": "module",
+	"keywords": [],
+	"author": "Reyhan Ardiya",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"eslint-plugin-jsdoc": "^38.0.6",
+		"express": "^4.17.3",
+		"mongoose": "^6.2.8",
+		"valid-url": "^1.0.9"
+	}
+}
